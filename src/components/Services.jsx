@@ -28,13 +28,13 @@ const Services = () => {
 
   const dots = Array.from({ length: 5 }).map((_, index) => ({
     id: index,
-    angle: index * (190 / 5) * (Math.PI / 180) + 0.5, // Равномерно распределяем точки по полукругу
+    angle: index * (160 / 5) * (Math.PI / 190) + 0.5, // Равномерно распределяем точки по полукругу
     label: texts[index], // Add label text here
   }));
 
   const dots2 = Array.from({ length: 4 }).map((_, index) => ({
     id: index,
-    angle: index * (190 / 5) * (Math.PI / 180) + 0.5, // Равномерно распределяем точки по полукругу
+    angle: index * (220 / 5) * (Math.PI / 180) + 0.5, // Равномерно распределяем точки по полукругу
     label: texts2[index], // Add label text here
   }));
 
@@ -56,9 +56,8 @@ const Services = () => {
                 backgroundImage: `url(${LeftHeart})`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
-                // backgroundPosition: isMobile ? "center center" : "left center",
               }}
-              className="relative w-[150px] md:w-[250px] h-[300px] md:h-[500px] rounded-tl-full rounded-bl-full flex justify-center items-end"
+              className="relative w-[150px] md:w-[249px] h-[300px] md:h-[500px] rounded-tl-full rounded-bl-full flex justify-center items-end"
             >
               {dots.map(({ id, angle, label }) => {
                 const x = isMobile
@@ -74,7 +73,7 @@ const Services = () => {
                       key={id}
                       className="absolute group cursor-pointer"
                       style={{
-                        left: `${isMobile ? 130 - x : 250 - x}px`, // Используйте `isMobile` для определения значения
+                        left: `${isMobile ? 130 - x : 290 - x}px`, // Используйте `isMobile` для определения значения
                         bottom: `${isMobile ? 119 + y : 220 + y}px`, // Адаптируйте значения `bottom` для мобильной версии
                         transform: "translate(-50%, -50%)",
                       }}
@@ -97,7 +96,7 @@ const Services = () => {
                     }}
                   >
                     <div className="w-[30px] h-[30px] bg-customDots rounded-full z-10 group-hover:bg-blue-900" />
-                    <div className="text-[9px] md:text-xl font-medium absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-full w-[140px] md:w-[350px] md:text-end group-hover:font-bold group-hover:text-blue-900">
+                    <div className="text-[9px] md:text-xl font-medium absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-full w-[140px] md:w-[450px] md:text-end group-hover:font-bold group-hover:text-blue-900">
                       {label}
                     </div>
                   </div>

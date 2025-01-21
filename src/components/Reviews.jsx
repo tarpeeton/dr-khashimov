@@ -60,7 +60,7 @@ const Reviews = () => {
     if (!currentReview) return null;
   
     return (
-      <div className="w-full h-full bg-white rounded-xl flex flex-col md:flex-row justify-between items-center">
+      <div className="w-full h-full  bg-white rounded-xl flex flex-col md:flex-row justify-between items-center">
         <div className="ml-0 md:ml-4 mt-2 md:mt-0 rounded-xl h-[30%] md:h-[80%] w-full md:w-1/2 flex justify-center">
           <img className="w-[80%] md:w-full md:h-full rounded-xl" src={OtziviImg1} alt={currentReview.name} />
         </div>
@@ -82,7 +82,7 @@ const Reviews = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      className="h-auto w-full "
+      className="h-auto w-full  mt-[40px]"
     >
       <div className="h-full w-full flex flex-col justify-around items-center">
         <h2 className="text-center text-xl md:text-4xl text-white mt-10">
