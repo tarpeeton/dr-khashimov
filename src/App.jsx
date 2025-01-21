@@ -1,3 +1,5 @@
+import { BrowserRouter } from 'react-router-dom';
+
 import  { useEffect } from 'react';
 import Section1 from './components/Section1';
 import StepScrollComponent from './components/StepScrollComponent';
@@ -48,7 +50,8 @@ export const App = () => {
 
 
   return (
-    <div className="App">
+    <BrowserRouter>
+     <div className="App">
       <Section1 />
       <StepScrollComponent />
       <Section3 />
@@ -58,6 +61,8 @@ export const App = () => {
       <Connect />
       <Footer />
     </div>
+    </BrowserRouter>
+   
   );
 }
 
