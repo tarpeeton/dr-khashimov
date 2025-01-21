@@ -2,7 +2,7 @@ import axios from "axios";
 import DOMPurify from "dompurify";
 
 // Лимиты запросов
-const DAILY_LIMIT_VISIT = 1;
+const DAILY_LIMIT_VISIT = 10;
 const DAILY_LIMIT_APPLICATION = 3;
 
 // Функция для получения или создания уникального идентификатора устройства

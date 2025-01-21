@@ -1,13 +1,21 @@
-import React from "react";
+
 import FooterLogo from "../assets/footer.png";
 import { useTranslation } from 'react-i18next';
 import { RiTelegram2Fill } from "react-icons/ri";
 import { BsInstagram } from "react-icons/bs";
 import { ImFacebook2 } from "react-icons/im";
-
+import Axios from '../lib/axios';
 
 const Footer = () => {
   const { t } = useTranslation()
+
+  const CounterUp = async (buttonTEXT) => {
+    try {
+      await Axios.post(`counter/add?button=${buttonTEXT}`);
+    } catch (error) {
+      console.error('Ошибка при отправке запроса:', error.message);
+    } 
+  };
 
 
   return (
@@ -19,17 +27,17 @@ const Footer = () => {
         <div className="flex-1 flex md:flex-row flex-col items-center md:justify-between">
           <div className="flex justify-around md:justify-between w-[80%] md:w-1/3 items-center">
             <div>
-              <a href="https://t.me/drhhart">
+              <a onClick={() => CounterUp('TELEGRAM')} href="https://t.me/drhhart">
                <RiTelegram2Fill className='text-white w-8 h-8' />
               </a>
             </div>
             <div>
-              <a href="https://www.instagram.com/dr.khayrullah?igsh=a3I5emMwMmhjcW1t&utm_source=qr">
+              <a onClick={() => CounterUp('INSTAGRAM')} href="https://www.instagram.com/dr.khayrullah?igsh=a3I5emMwMmhjcW1t&utm_source=qr">
                 <BsInstagram className='text-white w-8 h-8' />
               </a>
             </div>
             <div>
-              <a href="https://www.facebook.com/profile.php?id=100077919506611&mibextid=LQQJ4d">
+              <a onClick={() => CounterUp('FACEBOOK')} href="https://www.facebook.com/profile.php?id=100077919506611&mibextid=LQQJ4d">
                 <ImFacebook2 className='text-white w-8 h-8' />
               </a>
             </div>
@@ -37,12 +45,14 @@ const Footer = () => {
           <div className="flex flex-col justify-between items-center md:items-end h-full w-full md:w-1/3 mt-4 md:mt-0 text-white">
             <a href="mailto:hayrullomd@gmail.com">hayrullomd@gmail.com</a>
             <a
+            onClick={() => CounterUp('CALL')}
               href="tel: +998 33 303 77 99"
               className="text-md md:text-2xl mt-2 hover:text-green-500 transition-all"
             >
               +998 33 303 77 99
             </a>
             <a
+              onClick={() => CounterUp('CALL')}
               href="tel: +998 90 098 00 61"
               className="text-md md:text-2xl hover:text-green-500 transition-all"
             >
@@ -53,7 +63,7 @@ const Footer = () => {
                 width="15px"
                 height="15px"
                 viewBox="0 0 1024 1024"
-                class="icon"
+                className="icon"
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
               >
