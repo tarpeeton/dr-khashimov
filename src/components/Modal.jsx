@@ -68,7 +68,7 @@ const Modal = ({ closeModal }) => {
         </h2>
         <p className="text-lg mb-4">
          
-          {t('connect_modal_description ')}
+          {t('connect_modal_description')}
         </p>
         <form onSubmit={handleSubmit} method="post">
         <input
