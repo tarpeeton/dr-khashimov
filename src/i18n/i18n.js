@@ -1,5 +1,5 @@
 import i18n from 'i18next';
-import Backend from 'i18next-xhr-backend';
+import HttpBackend from 'i18next-http-backend'; 
 import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
 
@@ -12,24 +12,22 @@ const resources = {
 };
 
 i18n
-  .use(Backend)
+  .use(HttpBackend) 
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources,
-    fallbackLng: 'uz',
-    debug: true,
+    fallbackLng: 'uz', // Default til
+    debug: true, // Debug ma'lumotlar
 
     interpolation: {
-      escapeValue: true,
+      escapeValue: true, 
     },
     react: {
       useSuspense: false, 
       bindI18n: 'languageChanged loaded', 
-      transKeepBasicHtmlNodesFor: ['br', 'strong', 'i'], 
+      transKeepBasicHtmlNodesFor: ['br', 'strong', 'i'],
     },
   });
-
-
 
 export default i18n;
