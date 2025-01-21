@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 import { useChangeLanguage } from '../hook/changeLanguage';
 
 
-const Section1 = () => {
+const Banner = () => {
   const [isOpenModal, setIsOpenModal] = useState(false);
   const {t , i18n} = useTranslation();
 
@@ -182,4 +182,4 @@ const Section1 = () => {
   );
 };
 
-export default Section1;
+export default Banner;

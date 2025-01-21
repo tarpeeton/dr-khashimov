@@ -66,7 +66,7 @@ const Services = () => {
                   : 250 * Math.sin(angle); // Уменьшаем значение для мобильных устройств
                 const y = isMobile
                   ? 140 * Math.cos(angle)
-                  : 250 * Math.cos(angle); // То же для `bottom`
+                  : 270 * Math.cos(angle); // То же для `bottom`
 
                 if (id === 4) {
                   return (

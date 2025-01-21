@@ -1,12 +1,12 @@
 import { BrowserRouter } from 'react-router-dom';
 
 import  { useEffect } from 'react';
-import Section1 from './components/Section1';
+import Banner from './components/Banner';
 import StepScrollComponent from './components/StepScrollComponent';
-import Section3 from './components/Section3';
+import Info from './components/Info';
 import Specialization from './components/Specialization';
 import Services from './components/Services';
-import Otzivi from './components/Otzivi';
+import Reviews from './components/Reviews';
 import Connect from './components/Connect';
 import Footer from './components/Footer';
 import './i18n/i18n'; 
@@ -51,12 +51,12 @@ export const App = () => {
   return (
     <BrowserRouter>
      <div className="App">
-      <Section1 />
+      <Banner />
       <StepScrollComponent />
-      <Section3 />
+      <Info />
       <Specialization />
       <Services />
-      <Otzivi />
+      <Reviews />
       <Connect />
       <Footer />
     </div>

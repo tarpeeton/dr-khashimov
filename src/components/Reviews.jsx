@@ -4,7 +4,7 @@ import OtziviImg1 from "../assets/otzivi-first-img.png";
 import gsap from "gsap";
 import { useTranslation } from 'react-i18next';
 
-const Otzivi = () => {
+const Reviews = () => {
   const [activeStep, setActiveStep] = useState(0);
   const [rightSlide, setRightSlide] = useState(false);
   const [leftSlide, setLeftSlide] = useState(false);
@@ -206,4 +206,4 @@ const Otzivi = () => {
   );
 };
 
-export default Otzivi;
+export default Reviews;

@@ -5,7 +5,7 @@ import Hospital from "../assets/hospital.png";
 import MedNotes from "../assets/med-notes.png";
 import { useTranslation } from 'react-i18next';
 
-const Section3 = () => {
+const Info = () => {
   const { t } = useTranslation();
 
 
@@ -51,4 +51,4 @@ const Section3 = () => {
   );
 };
 
-export default Section3;
+export default Info;
