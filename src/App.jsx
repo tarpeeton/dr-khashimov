@@ -37,8 +37,7 @@ export const App = () => {
   useEffect(() => {
     const recordVisit = async () => {
       try {
-         const res = await Axios.post('counter/add?button=VISIT');
-         console.log(res)
+         await Axios.post('counter/add?button=VISIT');
       } catch (error) {
         console.error('Error recording visit:', error);
       }
