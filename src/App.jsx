@@ -23,11 +23,14 @@ export const App = () => {
     const storageLang = getLanguageFromStorageOrCookie();
   
     if (!['uz', 'ru'].includes(pathLang)) {
-      window.location.pathname = `/${storageLang}/`;
-    } else {
+      if (pathLang !== storageLang) {
+        window.location.pathname = `/${storageLang}/`;
+      }
+    } else if (i18n.language !== pathLang) {
       i18n.changeLanguage(pathLang);
     }
-  }, []);
+  }, []); 
+  
 
   useEffect(() => {
     const recordVisit = async () => {
