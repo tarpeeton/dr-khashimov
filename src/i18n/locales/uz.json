@@ -5,17 +5,17 @@
     "services": "Xizmatlar",
     "contact": "Aloqa"
   },
-  "name": "Hashimov Hayrullo Rahmatullaevich",
+  "name": "Xashimov Xayrillo Raxmatullaevich",
   "work": "Yurak-qon tomir jarrohi",
   "description": "Doktor Xayrillo Rahmatullaevich Hoshimov yetakchi yurak-qon tomir jarrohi va intervention kardiolog sifatida 16 yildan ortiq tajribaga ega.",
   "consultation": "Maslahat olish",
-  "address": "Milliy tibbiyot markazi",
+  "address": "Rofmedserviz- Yurak markazi",
   "my_achievements": "Mening Yutuglarim",
   "work_experience": "Ish tajribasi",
   "achievements": {
     "1": "2018 yildan buyon AQShning ko'krak jarrohligi jamiyati STS-xalqaro a'zosi hisoblanadi.",
     "2": "1000 dan ortiq yurak-jarrohlik amaliyotlar.",
-    "3": "Minimal invaziv jarrohlik yangi uslublarini ishlab chiqishda ishtirok etish."
+    "3": "Minimal invaziv kardiojarrohlik yangi uslublarini respublikaning yetakchi yurak markazlarida amaliyotga tatbiq etishda ishtirok etish"
   },
   "experience": {
   "1": "Respublika ixtisoslashtirilgan ilmiy-amaliy tibbiyot markazi, kardiojarroh (2021-2023) yillar, Toshkent, O‘zbekiston.",
@@ -37,7 +37,7 @@
   "specialization": {
     "title": "Ixtisoslik",
     "1": "Yurak-qon tomir jarrohligi",
-    "2": "Intervension kardiologiya",
+    "2": "Interventsion kardiolog",
     "3": "Minimal invaziv kardiojarrohlik"
   },
   "texts": [
@@ -57,16 +57,16 @@
   "satisfied_patients": "Davollashdan mamnun bemorlar",
     "reviews": [
       {
-        "name": "Xaitmetov Boburjon",
-        "text": "Men Hayrullo Rahmatullaevichga hayotimni saqlab qolganligi uchun cheksiz minnatdorman, uning amaliyoti tufayli men bu fikrni yozish imkoniyatiga ega bo‘ldim."
+        "name": "Jumayev Ziyovuddin",
+        "text": "Men Hayrullo Rahmatullaevichga hayotimni saqlab qolganligi uchun cheksiz minnatdorman. Uning professional yondashuvi va yuqori malakasi tufayli men tezda sog'ayib ketdim. Doktorning har bir tavsiyasi va amaliyoti juda aniq va samarali bo'ldi. Men unga butun qalbdan rahmat aytmoqchiman va uni barchaga tavsiya qilaman."
       },
       {
-        "name": "Satarov Javohir",
-        "text": "Men Hayrullo Rahmatullaevichga hayotimni saqlab qolganligi uchun cheksiz minnatdorman, uning amaliyoti tufayli men bu fikrni yozish imkoniyatiga ega bo‘ldim."
+        "name": "Odilova Sayyora",
+        "text": "Hayrullo Rahmatullaevich mening yurak muammolarimni hal qilishda juda yordam berdi. Uning mehribonligi va bemorlarga nisbatan mas'uliyatli munosabati meni hayratda qoldirdi. Men uning barcha tavsiyalariga amal qildim va natijada o'z salomatligimni tikladim. Rahmat, doktor !"
       },
       {
-        "name": "Alisher Ganiyev",
-        "text": "Men Hayrullo Rahmatullaevichga hayotimni saqlab qolganligi uchun cheksiz minnatdorman, uning amaliyoti tufayli men bu fikrni yozish imkoniyatiga ega bo‘ldim."
+        "name": "Isakova Gulnora",
+        "text": "Men Hayrullo Rahmatullaevichga o'z oilam nomidan ham, shaxsan o'zim nomidan ham katta minnatdorchilik bildirmoqchiman. Uning yurak jarrohligi bo'yicha bilimlari va tajribasi tufayli mening operatsiyam muvaffaqiyatli o'tdi. Doktor bemorlarga nisbatan juda mehribon va sabrli. Men uni barchaga tavsiya qilaman "
       }
     ],
     "connect": {

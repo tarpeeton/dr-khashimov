@@ -64,10 +64,10 @@ const Reviews = () => {
         <div className="ml-0 md:ml-4 mt-2 md:mt-0 rounded-xl h-[30%] md:h-[80%] w-full md:w-1/2 flex justify-center">
           <img className="w-[80%] md:w-full md:h-full rounded-xl" src={OtziviImg1} alt={currentReview.name} />
         </div>
-        <div className="md:mt-0 mt-2 w-full md:w-1/2 h-[80%] mr-4 flex flex-col justify-between ">
+        <div className="md:mt-0 mt-2 w-full md:w-1/2 h-[100%] mr-4 flex flex-col justify-between ">
           <div className="ml-8">
             <h3 className="font-bold text-sm md:text-xl mb-4">{currentReview.name}</h3>
-            <p className="text-[12px] md:text-lg">{currentReview.text}</p>
+            <p className="text-[12px] md:text-lg lg:text-[15px]">{currentReview.text}</p>
           </div>
         </div>
       </div>

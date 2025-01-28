@@ -51,13 +51,7 @@ const Footer = () => {
             >
               +998 33 303 77 99
             </a>
-            <a
-              onClick={() => CounterUp('CALL')}
-              href="tel: +998 90 098 00 61"
-              className="text-md md:text-2xl hover:text-green-500 transition-all"
-            >
-              +998 90 098 00 61
-            </a>
+           
             <div className="flex mt-2">
               <svg
                 width="15px"
