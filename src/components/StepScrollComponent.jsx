@@ -77,7 +77,7 @@ export default function ProgressMobileStepper() {
           >
             <div className="h-[100px] md:h-full w-[200px] md:w-[350px] flex justify-center items-center">
               <div>
-                <ol className="list-decimal leading-1 md:text-xl text-gray-200 text-[10px] ">
+                <ol className="list-decimal leading-1 md:text-xl lg:text-[18px] text-gray-200 text-[10px] ">
                   <li className="md:mb-3">
                    
                     {t('experience.1')}
@@ -94,6 +94,9 @@ export default function ProgressMobileStepper() {
                   </li>
                   <li>
                     {t('experience.4')}
+                  </li>
+                  <li>
+                    {t('experience.5')}
                   </li>
                 </ol>
               </div>

@@ -106,7 +106,7 @@ const Connect = () => {
           </div>
         </div>
         <div className="w-full border-2 border-black md:border-o md:my-0 my-6 md:w-1/2 h-full rounded-[20px] overflow-hidden">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.5932881958515!2d69.30316248688548!3d41.25241641621109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae5fc23dbbb961%3A0x6ffc673d87ae391a!2zWWFuZ2kgUW8neWxpcSBrbydjaGFzaSAxNiwg0KLQvnNoa2VudCwgVG9zaGtlbnQsINCj0LfQsdC10LrQuNGB0YLQsNC9!5e0!3m2!1sru!2s!4v1738042823969!5m2!1sru!2s" width="600" height="450"  allowfullscreen="" loading="lazy" ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.5932881958515!2d69.30316248688548!3d41.25241641621109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae5fc23dbbb961%3A0x6ffc673d87ae391a!2zWWFuZ2kgUW8neWxpcSBrbydjaGFzaSAxNiwg0KLQvnNoa2VudCwgVG9zaGtlbnQsINCj0LfQsdC10LrQuNGB0YLQsNC9!5e0!3m2!1sru!2s!4v1738042823969!5m2!1sru!2s" width="600" height="450"  className='w-full h-full' allowfullscreen="" loading="lazy" ></iframe>
         </div>
       </div>
     </div>
