@@ -61,12 +61,12 @@ const Reviews = () => {
   
     return (
       <div className="w-full h-full  bg-white rounded-xl flex flex-col md:flex-row justify-between items-center">
-        <div className="ml-0 md:ml-4 mt-2 md:mt-0 rounded-xl h-[30%] md:h-[80%] w-full md:w-1/2 flex justify-center">
+        <div className="ml-0  md:ml-4 mt-2 md:mt-0 rounded-xl h-[30%] md:h-[80%] w-full md:w-1/2 flex justify-center ">
           <img className="w-[80%] md:w-full md:h-full rounded-xl" src={OtziviImg1} alt={currentReview.name} />
         </div>
-        <div className="md:mt-0 mt-2 w-full md:w-1/2 h-[100%] mr-4 flex flex-col justify-between ">
+        <div className="md:mt-0 mt-2 w-full lg:mt-[35px] md:w-1/2 h-[100%] mr-4 flex flex-col  gap-[120px] ">
           <div className="ml-8">
-            <h3 className="font-bold text-sm md:text-xl mb-4">{currentReview.name}</h3>
+            <h3 className="font-bold text-sm md:text-xl mb-4 lg:mb-[25px]">{currentReview.name}</h3>
             <p className="text-[12px] md:text-lg lg:text-[15px]">{currentReview.text}</p>
           </div>
         </div>
@@ -144,7 +144,7 @@ const Reviews = () => {
             </button>
           </div>
           <div
-            className="w-2/3 h-[300px] flex justify-between items-center"
+            className="w-2/3  h-[400px] lg:h-[300px] flex justify-between items-center"
             ref={contentRef}
           >
             {renderContent()}
