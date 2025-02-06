@@ -17,7 +17,6 @@ import Axios from "./lib/axios";
 export const App = () => {
   const { i18n } = useTranslation();
 
-  // SEO text object
   const seoText = {
     uz: {
       title: "Kardioxirurg Hashimov Hayrullo | xalqaro darajadagi mutaxassis",
@@ -61,8 +60,7 @@ export const App = () => {
     recordVisit();
   }, []);
 
-  // Get current language SEO content
-  const currentLang = i18n.language || "uz"; // Fallback to "uz" if language is not set
+  const currentLang = i18n.language || "uz";
   const currentSEO = seoText[currentLang] || seoText.uz;
 
   return (

@@ -2,14 +2,14 @@ import { useState } from "react";
 import ReactDOM from "react-dom";
 import toast, { Toaster } from 'react-hot-toast';
 import Axios from "../lib/axios"; 
-import { PatternFormat } from "react-number-format";
 import { useTranslation } from 'react-i18next';
-
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 
 
 const Modal = ({ closeModal }) => {
   const { t } = useTranslation();
-  const [data, setData] = useState({ name: "", phone: "", message: "" });
+  const [data, setData] = useState({ name: "", phone: "", message: "" , countryCode: "" });
 
   const handleInputChange = (key, value) => {
     setData((prevData) => ({ ...prevData, [key]: value }));
@@ -20,7 +20,7 @@ const Modal = ({ closeModal }) => {
 
     const body = {
       name: data.name,
-      phone: data.phone,
+      phone: `${data.countryCode} : ${data.phone}`, 
       message: data.message,
     };
 
@@ -43,7 +43,13 @@ const Modal = ({ closeModal }) => {
     }
   };
 
-
+  const handlePhoneChange = (value, country) => {
+    setData((prevData) => ({
+      ...prevData,
+      phone: value,
+      countryCode: `+${country.name}`,
+    }));
+  };
 
 
 
@@ -78,16 +84,20 @@ const Modal = ({ closeModal }) => {
                 value={data.name}
                 onChange={(e) => handleInputChange('name', e.target.value)}
               />
-          <PatternFormat
-                format="+998 ## ###-##-##"
-                mask="_"
-                required
+           <PhoneInput
+                    country={'us'}
+                    placeholder="+7 (999) 999-99-99"
+                    inputClass="w-full "
+                    value={data.phone}
+                    onChange={handlePhoneChange}
 
-                placeholder={t("connect.placeholder.phone")}
-                className="h-[50px] w-full pl-5 pb-1 mb-10 items-center border-2 border-blue-900 rounded-[10px]"
-                value={data.phone}
-                onValueChange={(values) => handleInputChange("phone", values.value)}
-              />
+                    containerClass="w-full rounded-lg  mb-10 border-2 border-blue-900  "
+                    inputStyle={{
+                      width: '100%',
+                      height: '42px',
+                      borderRadius: '8px',
+                    }}
+                  />
 
 <textarea
                 placeholder={t('connect.placeholder.message')}
