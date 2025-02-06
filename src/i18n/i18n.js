@@ -17,8 +17,8 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    fallbackLng: 'uz', // Default til
-    debug: true, // Debug ma'lumotlar
+    fallbackLng: 'uz', 
+    debug: true, 
 
     interpolation: {
       escapeValue: true, 
