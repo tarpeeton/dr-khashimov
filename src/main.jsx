@@ -1,10 +1,10 @@
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import {App} from './App'
-import { HelmetProvider } from "react-helmet-async";
+import { createRoot } from 'react-dom/client';
+import { HelmetProvider } from 'react-helmet-async';
+import './index.css';
+import { App } from './App';
 
 createRoot(document.getElementById('root')).render(
     <HelmetProvider>
-      <App />
+        <App />
     </HelmetProvider>
-)
+);
