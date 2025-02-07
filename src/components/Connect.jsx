@@ -8,7 +8,6 @@ import "react-phone-input-2/lib/style.css";
 const Connect = () => {
   const { t } = useTranslation();
   const [data, setData] = useState({ name: "", phone: "", message: "" , countryCode: ""  });
-  const [phoneValid, setPhoneValid] = useState(true);
 
   const handleInputChange = (key, value) => {
     setData((prevData) => ({ ...prevData, [key]: value }));
@@ -17,14 +16,9 @@ const Connect = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!data.phone || !phoneValid) {
-      toast.error("Iltimos, to'g'ri telefon raqamini kiriting!");
-      return;
-    }
-
     const body = {
       name: data.name,
-      phone: `${data.countryCode} : ${data.phone}`, 
+      phone: `${data.phone}`,
       message: data.message,
     };
     

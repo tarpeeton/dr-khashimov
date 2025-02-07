@@ -20,10 +20,10 @@ const Modal = ({ closeModal }) => {
 
     const body = {
       name: data.name,
-      phone: `${data.countryCode} : ${data.phone}`, 
+      phone: `${data.phone}`, 
       message: data.message,
     };
-
+    console.log(body , "")
     try {
       const response = await Axios.post("application/send", JSON.stringify(body), {
         headers: {
