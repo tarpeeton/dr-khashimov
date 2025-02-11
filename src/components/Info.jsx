@@ -10,7 +10,7 @@ const Info = () => {
 
 
   return (
-    <div className="w-full md:h-screen bg-white flex justify-center items-center md:relative md:top-0 absolute top-[750px]">
+    <div className="w-full md:h-screen  bg-white flex justify-center items-center md:relative md:top-0">
       <div className="flex md:w-[80%] md:h-[90%] justify-around flex-col w-full h-full">
         <div className="w-full h-auto flex justify-around mt-[20px]">
           <div className="md:h-[200px] h-full flex justify-center items-center flex-col text-center flex-1">
@@ -30,7 +30,7 @@ const Info = () => {
           </div>
           <div className="md:h-[200px] h-auto flex items-center flex-col text-center flex-1">
             <img alt='center' className="h-[40px] w-[40px] md:h-[80px] md:w-[80px]" src={Hospital} />
-            <h2 className="font-extrabold text-[20px] md:text-[30px]">100+</h2>
+            <h2 className="font-extrabold text-[20px] md:text-[30px]">7+</h2>
             <p className="text-[10px] md:w-[150px] md:text-xl font-medium">
               {t('centers')}
             </p>

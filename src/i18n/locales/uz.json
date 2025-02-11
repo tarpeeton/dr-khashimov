@@ -14,25 +14,37 @@
   "work_experience": "Ish tajribasi",
   "achievements": {
     "1": "2018 yildan buyon AQShning ko'krak jarrohligi jamiyati STS-xalqaro a'zosi hisoblanadi.",
-    "2": "1000 dan ortiq yurak-jarrohlik amaliyotlar.",
+    "2": "1000 Muvaffaqiyatli jarrohlik amaliyotlarda ishtirok",
     "3": "Minimal invaziv kardiojarrohlik yangi uslublarini respublikaning yetakchi yurak markazlarida amaliyotga tatbiq etishda ishtirok etish"
   },
+  "stajirofka": "Amaliyot",
   "experience": {
-  "1": "Respublika ixtisoslashtirilgan ilmiy-amaliy tibbiyot markazi, kardiojarroh (2021-2023) yillar, Toshkent, O‘zbekiston.",
-  "2": "Salmon Al Dabbus Yurak Markazi, Al-Adan shifoxonasi, kardiojarroh (2014-2021) yillar, Quvayt davlati.",
-  "3": "Respublika shoshilinch tibbiy yordam ilmiy markazi, kardiojarroh (2010-2013) yillar, Toshkent, O‘zbekiston.",
-  "4": "Andijon davlat tibbiyot instituti klinikasi, kardiojarroh (2008-2010) yillar, Andijon, O‘zbekiston.",
-  "5": "Profmedserviz-kardio markaz, bosh kardioxirurg (2023-2025 yillar), Toshkent, Oʻzbekiston."
-},
-"education": {
-  "title": "Ta'lim",
-  "1": "Toshkent shifokorlar malaka oshirish instituti (2023-2024) yillar, Intervension kardiologiya bo‘yicha qayta tayyorlash kursi.",
-  "2": "Toshkent tibbiyot akademiyasi (2006-2008) yillar, Yurak-qon tomir jarrohligi bo‘yicha klinik ordinatura.",
-  "3": "Andijon davlat tibbiyot instituti (1999-2006) yillar."
-},
-  "success_work": "Muvaffaqiyatli jarrohlik amaliyotlari",
+    "1": "Profmedserviz-kardio markaz, bosh kardioxirurg (2023-2025 yillar), Toshkent, Oʻzbekiston.",
+    "2": "Respublika ixtisoslashtirilgan ilmiy-amaliy tibbiyot markazi, kardiojarroh (2021-2023) yillar, Toshkent, O‘zbekiston.",
+    "3": "Salmon Al Dabbus Yurak Markazi, Al-Adan shifoxonasi, kardiojarroh (2014-2021) yillar, Quvayt davlati.",
+    "4": "Respublika shoshilinch tibbiy yordam ilmiy markazi, kardiojarroh (2010-2013) yillar, Toshkent, O‘zbekiston.",
+    "5": "Andijon davlat tibbiyot instituti klinikasi, kardiojarroh (2008-2010) yillar, Andijon, O‘zbekiston."
+  },
+  "stajirofkaData": {
+    "1": "ECHO Master klass kursi, 2020 yil may, Vena Tibbiyot Universiteti, Avstriya",
+    "2": "Minimal invaziv radial arterni olish, 2019 yil mart, Thorax Centrum Twente, Enschede, Niderlandiya",
+    "3": "ECMO yangilanishlari bo‘yicha seminar, 2019 yil fevral, Al-Dabbous Kardiyak Markazi, Kuvayt",
+    "4": "ECHO bakalavr kursi, 2018 yil noyabr, Vena Tibbiyot Universiteti, Avstriya",
+    "5": "Asosiy ultratovush kursi, 2018 yil may, Kardio va qon tomir ultratovush kursi, Al-Dabbous Kardiyak Markazi, Kuvayt",
+    "6": "Minimal invaziv yurak klapanlari operatsiyasi bo‘yicha trening kursi, 2017 yil sentyabr, Innsbruck Tibbiyot Universiteti, Innsbruck, Avstriya",
+    "7": "2011-2013 yillarda yurak jarrohligi bo‘yicha bosh mutaxassis bilan ko‘plab mahalliy treninglar, Professor Park C.S. MD, PhD, Bundang kasalxonasi, Seul Milliy Universiteti, Koreya, Toshkent, O‘zbekiston",
+    "8": "2010 yilda yurak jarrohligi bo‘yicha bosh mutaxassis bilan mahalliy trening, Professor Mustafa Pace MD, PhD, Turkiya Yuksek Ihtisas kasalxonasi, Toshkent, O‘zbekiston"
+  },
+
+  "education": {
+    "title": "Ta'lim",
+    "1": "Toshkent shifokorlar malaka oshirish instituti (2023-2024) yillar, Intervension kardiologiya bo‘yicha qayta tayyorlash kursi.",
+    "2": "Toshkent tibbiyot akademiyasi (2006-2008) yillar, Yurak-qon tomir jarrohligi bo‘yicha klinik ordinatura.",
+    "3": "Andijon davlat tibbiyot instituti (1999-2006) yillar."
+  },
+  "success_work": "Muvaffaqiyatli jarrohlik amaliyotlarda ishtirok",
   "year_experience": "Yillik tajriba",
-  "centers": "Malaka oshirgan markazlar",
+  "centers": "Mamlakatimiz va Yevropaning yetuk markazlarida olingan tajriba",
   "happy_clients": "Mamnun mijozlar",
   "diplomas_certificates": "Diplomlar va sertifikatlar",
   "specialization": {
@@ -56,21 +68,21 @@
   ],
   "services_title": "Xizmatlar",
   "satisfied_patients": "Davollashdan mamnun bemorlar",
-    "reviews": [
-      {
-        "name": "Jumayev Ziyovuddin",
-        "text": "Men Hayrullo Rahmatullaevichga hayotimni saqlab qolganligi uchun cheksiz minnatdorman. Uning professional yondashuvi va yuqori malakasi tufayli men tezda sog'ayib ketdim. Doktorning har bir tavsiyasi va amaliyoti juda aniq va samarali bo'ldi. Men unga butun qalbdan rahmat aytmoqchiman va uni barchaga tavsiya qilaman."
-      },
-      {
-        "name": "Odilova Sayyora",
-        "text": "Hayrullo Rahmatullaevich mening yurak muammolarimni hal qilishda juda yordam berdi. Uning mehribonligi va bemorlarga nisbatan mas'uliyatli munosabati meni hayratda qoldirdi. Men uning barcha tavsiyalariga amal qildim va natijada o'z salomatligimni tikladim. Rahmat, doktor !"
-      },
-      {
-        "name": "Isakova Gulnora",
-        "text": "Men Hayrullo Rahmatullaevichga o'z oilam nomidan ham, shaxsan o'zim nomidan ham katta minnatdorchilik bildirmoqchiman. Uning yurak jarrohligi bo'yicha bilimlari va tajribasi tufayli mening operatsiyam muvaffaqiyatli o'tdi. Doktor bemorlarga nisbatan juda mehribon va sabrli. Men uni barchaga tavsiya qilaman "
-      }
-    ],
-    "connect": {
+  "reviews": [
+    {
+      "name": "Jumayev Ziyovuddin",
+      "text": "Men Hayrullo Rahmatullaevichga hayotimni saqlab qolganligi uchun cheksiz minnatdorman. Uning professional yondashuvi va yuqori malakasi tufayli men tezda sog'ayib ketdim. Doktorning har bir tavsiyasi va amaliyoti juda aniq va samarali bo'ldi. Men unga butun qalbdan rahmat aytmoqchiman va uni barchaga tavsiya qilaman."
+    },
+    {
+      "name": "Odilova Sayyora",
+      "text": "Hayrullo Rahmatullaevich mening yurak muammolarimni hal qilishda juda yordam berdi. Uning mehribonligi va bemorlarga nisbatan mas'uliyatli munosabati meni hayratda qoldirdi. Men uning barcha tavsiyalariga amal qildim va natijada o'z salomatligimni tikladim. Rahmat, doktor !"
+    },
+    {
+      "name": "Isakova Gulnora",
+      "text": "Men Hayrullo Rahmatullaevichga o'z oilam nomidan ham, shaxsan o'zim nomidan ham katta minnatdorchilik bildirmoqchiman. Uning yurak jarrohligi bo'yicha bilimlari va tajribasi tufayli mening operatsiyam muvaffaqiyatli o'tdi. Doktor bemorlarga nisbatan juda mehribon va sabrli. Men uni barchaga tavsiya qilaman "
+    }
+  ],
+  "connect": {
     "title": "Aloqa ma'lumotlari",
     "description": "Agar siz qabulga yozilmoqchi bo'lsangiz yoki maslahatga muhtoj bo'lsangiz, murojaat qiling",
     "placeholder": {
@@ -83,8 +95,4 @@
     "error": "Ariza yuborishda xatolik yuz berdi"
   },
   "connect_modal_description": " Agar siz qabulga yozilmoqchi bo`lsangiz yoki maslahatga muhtoj bo`lsangiz, murojaat qiling"
-
-  
-
-
 }

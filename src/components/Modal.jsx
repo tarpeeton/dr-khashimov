@@ -23,7 +23,6 @@ const Modal = ({ closeModal }) => {
       phone: `${data.phone}`, 
       message: data.message,
     };
-    console.log(body , "")
     try {
       const response = await Axios.post("application/send", JSON.stringify(body), {
         headers: {
